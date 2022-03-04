@@ -6,7 +6,7 @@ authors = ["Huon Wilson <huon@exoflare.io>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-
+b = { path = "../b" }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
